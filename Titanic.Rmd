@@ -8,7 +8,7 @@ output: html_notebook
 
 ```{r, Load Data}
 #Load data
-setwd("C:\\Users\\E V D S\\OneDrive\\Main\\Public\\Open Project\\Titanic\\Data")
+setwd("Titanic\\Data")
 train <- read.csv("train.csv",na.strings=c(""))
 test <- read.csv("test.csv")
 train.raw <- train
